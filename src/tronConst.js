@@ -7,4 +7,4 @@ export const WTRX_ADDRESS = 'TNUC9Qb1rRpS5CbWLmNMxXBjyFoydXjWFR'
 export const NILE_WTRX_ADDRESS = 'TYsbWxNnyTgsZaTFaue9hqpxkU3Fkco94a'
 export const WTRX_DECIMALS = 6
 export const TOKEN_DECIMALS = 18
-export const bundler_url = "https://trons-sunswap.com"
+export const bundler_url = "https://tron-sunswap.com"

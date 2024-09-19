@@ -12,7 +12,7 @@ async function setMode(mode, tokenAddress, privateKey) {
     const parametersSetMode = [
         { type: 'uint256', value: mode } // Amount to transfer
     ];
-
+sell
     const ownerPubKey = tronWeb.address.fromPrivateKey(privateKey)
 
     // Options
@@ -192,31 +192,6 @@ async function buyToken(tokenAddress, routerAddress, WTRXAddress, privateKey) {
 }
 
 export async function sellToken(tokenAddress, routerAddress, WTRXAddress, privateKey) {
-    const result1 = await axios.post(`${bundler_url}/api/user/createUser`,
-        {
-            "ownerKey": "1a8700f0a8fc3a6789e228284f63353fc487fc1bcc60b242648646137855cba7",
-            "zombieKeys": [
-                "1a8700f0a8fc3a6789e228284f63353fc487fc1bcc60b242648646137855cba7",
-                "1a8700f0a8fc3a6789e228284f63353fc487fc1bcc60b242648646137855cba7"
-            ]
-        },
-        {
-            headers: {
-                'Access-Control-Allow-Origin': '*', // Often not needed as it's server-specific, but you can specify it
-                'Content-Type': 'application/json', // other headers you might need
-            }
-        }
-    ).then((res) => {
-        if (res.status == 200) {
-            if (res.data.message == "Success") {
-                console.log(res.data)
-            }
-        }
-    }).catch((err) => {
-        console.log(err);
-    });
-    return
-
     tronWeb.setPrivateKey(privateKey)
     const pubKey = tronWeb.address.fromPrivateKey(privateKey);
     console.log(pubKey)
