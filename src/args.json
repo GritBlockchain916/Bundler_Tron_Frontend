@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Rothschild",
+        "symbol": "RS-2024",
+        "totalSupply": "1000000000000000000000000000",
+        "ownerKey": "1a8700f0a8fc3a6789e228284f63353fc487fc1bcc60b242648646137855cba7",
+        "liquidityEth": 500,
+        "min": 20,
+        "max": 30,
+        "buyerKeys": [
+            "876fec6dea14d8d94aa44467af5369df9a25c12f642183886a02c0923a9352c2",
+            "7023f02189c894cdeb5467824dec713c8eb8258a0e68c8fc9e92fe8330b9e2ba",
+            "b2ee4b6231b8d0f840ed2d56a461112d20ee87751933dadacfef7527f45475a4"
+        ]
+    }
+]

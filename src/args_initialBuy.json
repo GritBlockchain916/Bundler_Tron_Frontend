@@ -1,0 +1,12 @@
+[
+    {
+        "tokenAddress": "",
+        "ownerKey": "c773f4960a803af66cceb5bc4e8ec2c975b37312f5dabdaea3c6548c8c6b84c6",
+        "liquidityEth": 5000,
+        "buyerKeys": [
+            "fed017a524236667fa0bacd8cb7ddc0476724db1c8070d658a8df1583fecada9",
+            "acf4bd978169184e21b5acd9c52983eb93132aa3fa767c819e26d87cf6eca72a",
+            "ac4185500e2d3470698cec2f0c621e3273b524afca65c609a3fefdca740e7144"
+        ]
+    }
+]
